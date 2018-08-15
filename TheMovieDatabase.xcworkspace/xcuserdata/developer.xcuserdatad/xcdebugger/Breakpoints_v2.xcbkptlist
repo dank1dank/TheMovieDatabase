@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TheMovieDatabase/Model/Movie.m"
-            timestampString = "556027665.959878"
+            timestampString = "556044555.2346129"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "15"
@@ -26,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TheMovieDatabase/Model/APIManager.m"
-            timestampString = "556027665.959969"
+            timestampString = "556044555.235106"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "66"
@@ -89,7 +89,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TheMovieDatabase/Model/APIManager.m"
-            timestampString = "556027665.960052"
+            timestampString = "556044555.235487"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "69"
@@ -105,7 +105,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TheMovieDatabase/Model/APIManager.m"
-            timestampString = "556027665.960125"
+            timestampString = "556044555.235612"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "72"
@@ -117,95 +117,32 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TheMovieDatabase/Model/APIManager.m"
-            timestampString = "556027665.9601949"
+            timestampString = "556044555.235727"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "81"
-            endingLineNumber = "81"
-            landmarkName = "-getMovieFromSearchString:withCompletion:"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[APIManager getMovieFromSearchString:withCompletion:]"
-                  moduleName = "TheMovieDatabase"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/developer/TheMovieDB/TheMovieDatabase/Model/APIManager.m"
-                  timestampString = "556025987.4295141"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "81"
-                  endingLineNumber = "81"
-                  offsetFromSymbolStart = "243">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__54-[APIManager getMovieFromSearchString:withCompletion:]_block_invoke"
-                  moduleName = "TheMovieDatabase"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/developer/TheMovieDB/TheMovieDatabase/Model/APIManager.m"
-                  timestampString = "556025987.435267"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "83"
-                  endingLineNumber = "83"
-                  offsetFromSymbolStart = "76">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__destroy_helper_block_.76"
-                  moduleName = "TheMovieDatabase"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/developer/TheMovieDB/TheMovieDatabase/Model/APIManager.m"
-                  timestampString = "556025987.440901"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "81"
-                  endingLineNumber = "81"
-                  offsetFromSymbolStart = "16">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "TheMovieDatabase/Model/APIManager.m"
-            timestampString = "556027665.9602619"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "86"
-            endingLineNumber = "86"
-            landmarkName = "-getMovieFromSearchString:withCompletion:"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "-arrayWithMoviesFromResponceArray:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "TheMovieDatabase/MainViewController.m"
-            timestampString = "556027665.960325"
+            filePath = "TheMovieDatabase/Model/APIManager.m"
+            timestampString = "556044555.235783"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "77"
-            endingLineNumber = "77"
-            landmarkName = "-updateMoviesList"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "-arrayWithMoviesFromResponceArray:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -216,29 +153,39 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TheMovieDatabase/Model/Movie.m"
-            timestampString = "556027665.960376"
+            timestampString = "556044555.235836"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "+dateWithReleaseDateWith:"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "+ratingMovie:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "TheMovieDatabase/MainViewController.m"
-            timestampString = "556027665.960431"
+            filePath = "TheMovieDatabase/Model/Movie.m"
+            timestampString = "556044555.235896"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "138"
-            endingLineNumber = "138"
-            landmarkName = "-tableView:cellForRowAtIndexPath:"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "+yearFromMovieDictionary:"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

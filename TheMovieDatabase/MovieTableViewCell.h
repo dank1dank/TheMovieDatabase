@@ -15,6 +15,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *yearMovieLabel;
 @property (weak, nonatomic) IBOutlet UILabel *ratingMovieLabel;
 @property (weak, nonatomic) IBOutlet UILabel *genreMovieLabel;
-@property (weak, nonatomic) IBOutlet UITextView *descriptionMovieTextView;
+@property (weak, nonatomic) IBOutlet UILabel *descriptionMovieLabel;
 
 @end

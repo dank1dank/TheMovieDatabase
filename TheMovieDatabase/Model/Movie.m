@@ -26,21 +26,24 @@ static NSString *imageURL = @"https://image.tmdb.org/t/p/w342";
     self.ratingMovie = [Movie ratingMovie:movieDictionary];
     self.genreMovie = [Movie genresToStringFrom:genres movieDictionary:movieDictionary];
     self.descriptionText = [movieDictionary objectForKey:@"overview"];
-    NSString *path = [movieDictionary objectForKey:@"poster_path"];
-//    self.imageUrl = [NSURL URLWithString:[NSString stringWithFormat:@"%@%@", imageURL, path]];
+
+    NSString *posterPath = [movieDictionary objectForKey:@"poster_path"];
+    if ([posterPath isKindOfClass:[NSString class]]) {
+        self.imageUrl = [NSURL URLWithString:[imageURL stringByAppendingString:posterPath]];
+    }
     
     return self;
 }
 
 #pragma mark - Private methods
 
-+ (NSDate*)dateWithReleaseDateWith:(NSDictionary*)movieDictionary {
++ (NSString*)dateWithReleaseDateWith:(NSDictionary*)movieDictionary {
+    
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
     [dateFormatter setDateFormat:@"yyyy-MM-dd"];
     NSDate *date = [dateFormatter dateFromString:[movieDictionary objectForKey:@"release_date"]];
-    dateFormatter.dateFormat = @"d MMMM YYYY";
-    NSDate *dateee = [dateFormatter stringFromDate:date];
-    
+    dateFormatter.dateStyle = NSDateFormatterMediumStyle;
+    NSString *dateee = [dateFormatter stringFromDate:date];
     
     return dateee;
 }

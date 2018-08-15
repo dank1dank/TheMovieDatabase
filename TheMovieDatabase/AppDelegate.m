@@ -17,7 +17,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    // Override point for customization after application launch.
+    [UIBarButtonItem appearanceWhenContainedInInstancesOfClasses:@[[UISearchBar class]]].tintColor = [UIColor colorWithRed:(255.f/255.f) green:(210.f/255.f) blue:(0.f/255.f) alpha:1];
+    
     return YES;
 }
 

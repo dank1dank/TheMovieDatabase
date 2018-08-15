@@ -16,9 +16,6 @@
 
     self.ratingMovieLabel.layer.cornerRadius = self.ratingMovieLabel.bounds.size.width/2;
     self.ratingMovieLabel.clipsToBounds = YES;
-    
-    CGPoint bottomOffset = CGPointMake(0, 0);
-    [self.descriptionMovieTextView setContentOffset:bottomOffset animated:YES];
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

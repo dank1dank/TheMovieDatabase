@@ -76,7 +76,7 @@ static NSString *BASE_URL = @"https://api.themoviedb.org/3";
 - (void)getMovieFromSearchString:(NSString*)searchString withCompletion:(void(^)(NSArray* movies, NSError *error))completion {
     
     NSString *urlString = [BASE_URL stringByAppendingString:@"/search/movie"];
-    NSDictionary *params = @{@"query":urlString, @"api_key":APIKey};
+    NSDictionary *params = @{@"query":searchString, @"api_key":APIKey};
     
     [[AFHTTPSessionManager manager] GET:urlString parameters:params progress:nil success:^(NSURLSessionTask *task, id responseObject) {
         

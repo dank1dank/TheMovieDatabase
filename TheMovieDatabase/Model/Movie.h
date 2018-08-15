@@ -16,7 +16,7 @@
 @property (strong, nonatomic) NSString *yearMovie;
 @property (strong, nonatomic) NSString *genreMovie;
 @property (strong, nonatomic) NSString *descriptionText;
-@property (strong, nonatomic) NSDate *releaseDate;
+@property (strong, nonatomic) NSString *releaseDate;
 @property (strong, nonatomic) NSURL *imageUrl;
 
 - (id)initWithDictionary:(NSDictionary*) movieDictionary andWithGenres:(NSArray*)genres;

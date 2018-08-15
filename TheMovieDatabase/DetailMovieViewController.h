@@ -8,10 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-NS_ASSUME_NONNULL_BEGIN
+@class Movie;
 
 @interface DetailMovieViewController : UIViewController
 
-@end
+@property (nonatomic, strong) Movie *movie;
 
-NS_ASSUME_NONNULL_END
+@end

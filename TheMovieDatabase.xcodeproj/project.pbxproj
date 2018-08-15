@@ -7,17 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B64AD7121222B5100E9DC0F /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B64AD7021222B5100E9DC0F /* APIManager.m */; };
+		8B64AD7321222CE000E9DC0F /* libAFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B64AD7221222CE000E9DC0F /* libAFNetworking.a */; };
+		8B64AD782122EF7E00E9DC0F /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B64AD772122EF7E00E9DC0F /* Movie.m */; };
 		8B767C5F212194CA0034A462 /* MovieTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B767C5E212194CA0034A462 /* MovieTableViewCell.m */; };
 		8B767C622121B08C0034A462 /* DetailMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B767C612121B08C0034A462 /* DetailMovieViewController.m */; };
 		8B92158421217F50001A50E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B92158321217F50001A50E5 /* AppDelegate.m */; };
 		8B92158A21217F50001A50E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B92158821217F50001A50E5 /* Main.storyboard */; };
-		8B92158C21217F54001A50E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B92158B21217F54001A50E5 /* Assets.xcassets */; };
 		8B92158F21217F54001A50E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B92158D21217F54001A50E5 /* LaunchScreen.storyboard */; };
 		8B92159221217F54001A50E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B92159121217F54001A50E5 /* main.m */; };
 		8B92159F21218734001A50E5 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B92159E21218734001A50E5 /* MainViewController.m */; };
+		8BB5142221244ECF00C4ECB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BB5142121244ECE00C4ECB8 /* Assets.xcassets */; };
+		8C5011B41E89040A9A1FA446 /* libPods-TheMovieDatabase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C05D167CCD336F8C39CDE54 /* libPods-TheMovieDatabase.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F494D5DD8E7D3A1BD7839B2 /* Pods-TheMovieDatabase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheMovieDatabase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TheMovieDatabase/Pods-TheMovieDatabase.debug.xcconfig"; sourceTree = "<group>"; };
+		48A6A936DC5BCD92A4D85A21 /* Pods-TheMovieDatabase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheMovieDatabase.release.xcconfig"; path = "Pods/Target Support Files/Pods-TheMovieDatabase/Pods-TheMovieDatabase.release.xcconfig"; sourceTree = "<group>"; };
+		6C05D167CCD336F8C39CDE54 /* libPods-TheMovieDatabase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TheMovieDatabase.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B64AD6F21222B5100E9DC0F /* APIManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIManager.h; sourceTree = "<group>"; };
+		8B64AD7021222B5100E9DC0F /* APIManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APIManager.m; sourceTree = "<group>"; };
+		8B64AD7221222CE000E9DC0F /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B64AD762122EF7E00E9DC0F /* Movie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		8B64AD772122EF7E00E9DC0F /* Movie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
 		8B767C5D212194CA0034A462 /* MovieTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieTableViewCell.h; sourceTree = "<group>"; };
 		8B767C5E212194CA0034A462 /* MovieTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieTableViewCell.m; sourceTree = "<group>"; };
 		8B767C602121B08C0034A462 /* DetailMovieViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailMovieViewController.h; sourceTree = "<group>"; };
@@ -26,12 +38,12 @@
 		8B92158221217F50001A50E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8B92158321217F50001A50E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8B92158921217F50001A50E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8B92158B21217F54001A50E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B92158E21217F54001A50E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B92159021217F54001A50E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B92159121217F54001A50E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8B92159D21218734001A50E5 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		8B92159E21218734001A50E5 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		8BB5142121244ECE00C4ECB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,17 +51,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B64AD7321222CE000E9DC0F /* libAFNetworking.a in Frameworks */,
+				8C5011B41E89040A9A1FA446 /* libPods-TheMovieDatabase.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27E8F41DC937623D7237B7C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B64AD7221222CE000E9DC0F /* libAFNetworking.a */,
+				6C05D167CCD336F8C39CDE54 /* libPods-TheMovieDatabase.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DD837C9C000FBEB2398E6B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F494D5DD8E7D3A1BD7839B2 /* Pods-TheMovieDatabase.debug.xcconfig */,
+				48A6A936DC5BCD92A4D85A21 /* Pods-TheMovieDatabase.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8B92157621217F50001A50E5 = {
 			isa = PBXGroup;
 			children = (
 				8B92158121217F50001A50E5 /* TheMovieDatabase */,
 				8B92158021217F50001A50E5 /* Products */,
+				7DD837C9C000FBEB2398E6B1 /* Pods */,
+				27E8F41DC937623D7237B7C0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,8 +98,6 @@
 		8B92158121217F50001A50E5 /* TheMovieDatabase */ = {
 			isa = PBXGroup;
 			children = (
-				8B92158221217F50001A50E5 /* AppDelegate.h */,
-				8B92158321217F50001A50E5 /* AppDelegate.m */,
 				8B92158821217F50001A50E5 /* Main.storyboard */,
 				8B92159D21218734001A50E5 /* MainViewController.h */,
 				8B92159E21218734001A50E5 /* MainViewController.m */,
@@ -73,12 +105,26 @@
 				8B767C612121B08C0034A462 /* DetailMovieViewController.m */,
 				8B767C5D212194CA0034A462 /* MovieTableViewCell.h */,
 				8B767C5E212194CA0034A462 /* MovieTableViewCell.m */,
-				8B92158B21217F54001A50E5 /* Assets.xcassets */,
+				8BB5141E2123677200C4ECB8 /* Model */,
+				8B92158221217F50001A50E5 /* AppDelegate.h */,
+				8B92158321217F50001A50E5 /* AppDelegate.m */,
 				8B92158D21217F54001A50E5 /* LaunchScreen.storyboard */,
+				8BB5142121244ECE00C4ECB8 /* Assets.xcassets */,
 				8B92159021217F54001A50E5 /* Info.plist */,
 				8B92159121217F54001A50E5 /* main.m */,
 			);
 			path = TheMovieDatabase;
+			sourceTree = "<group>";
+		};
+		8BB5141E2123677200C4ECB8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8B64AD6F21222B5100E9DC0F /* APIManager.h */,
+				8B64AD7021222B5100E9DC0F /* APIManager.m */,
+				8B64AD762122EF7E00E9DC0F /* Movie.h */,
+				8B64AD772122EF7E00E9DC0F /* Movie.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -88,6 +134,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B92159521217F54001A50E5 /* Build configuration list for PBXNativeTarget "TheMovieDatabase" */;
 			buildPhases = (
+				D703F8C68E0542C2C64404DA /* [CP] Check Pods Manifest.lock */,
 				8B92157B21217F50001A50E5 /* Sources */,
 				8B92157C21217F50001A50E5 /* Frameworks */,
 				8B92157D21217F50001A50E5 /* Resources */,
@@ -139,12 +186,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B92158F21217F54001A50E5 /* LaunchScreen.storyboard in Resources */,
-				8B92158C21217F54001A50E5 /* Assets.xcassets in Resources */,
+				8BB5142221244ECF00C4ECB8 /* Assets.xcassets in Resources */,
 				8B92158A21217F50001A50E5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D703F8C68E0542C2C64404DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheMovieDatabase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8B92157B21217F50001A50E5 /* Sources */ = {
@@ -153,6 +221,8 @@
 			files = (
 				8B767C622121B08C0034A462 /* DetailMovieViewController.m in Sources */,
 				8B92159221217F54001A50E5 /* main.m in Sources */,
+				8B64AD782122EF7E00E9DC0F /* Movie.m in Sources */,
+				8B64AD7121222B5100E9DC0F /* APIManager.m in Sources */,
 				8B92159F21218734001A50E5 /* MainViewController.m in Sources */,
 				8B767C5F212194CA0034A462 /* MovieTableViewCell.m in Sources */,
 				8B92158421217F50001A50E5 /* AppDelegate.m in Sources */,
@@ -293,11 +363,14 @@
 		};
 		8B92159621217F54001A50E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F494D5DD8E7D3A1BD7839B2 /* Pods-TheMovieDatabase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P84A6HCM9B;
 				INFOPLIST_FILE = TheMovieDatabase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,11 +383,14 @@
 		};
 		8B92159721217F54001A50E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48A6A936DC5BCD92A4D85A21 /* Pods-TheMovieDatabase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P84A6HCM9B;
 				INFOPLIST_FILE = TheMovieDatabase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
